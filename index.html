@@ -3,42 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100...900&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather App Project</title>
   </head>
   <body>
     <header>
-      <form>
-        <input type="search" placeholder="Enter a City..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 14:49, scattered clouds
-          <br />
-          Humidity: 66%, Wind: 3.13km/h
-        </p>
-      </div>
-      <div>🌤️ 12ºC</div>
-    </main>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a City..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 14:49, scattered clouds
+            <br />
+            Humidity: 66%, Wind: 3.13km/h
+          </p>
+        </div>
+        <div>🌤️ 12ºC</div>
+      </main>
 
-    <footer>
-      Coded by
-      <a href="https://github.com/Amel-coder-dot" target="_blank"
-        >Freya Collie</a
-      >
-      hosted
-      <a
-        href="https://github.com/Amel-coder-dot/weather-app-project"
-        target="_blank"
-        >open-sourced on Github</a
-      >
-      and hosted on
-      <a href="https://weather-app-project-awsome.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        Coded by
+        <a href="https://github.com/Amel-coder-dot" target="_blank"
+          >Freya Collie</a
+        >
+        hosted
+        <a
+          href="https://github.com/Amel-coder-dot/weather-app-project"
+          target="_blank"
+          >open-sourced on Github</a
+        >
+        and hosted on
+        <a
+          href="https://weather-app-project-awsome.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
